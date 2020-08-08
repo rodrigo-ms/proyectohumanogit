@@ -1,0 +1,15 @@
+
+
+  
+       
+public class MetodoSetter {                         //creare las caracteristicas basicas del humano
+	private int manos=2 ;                                      // aqui parte el metodo setter 
+	 public String dime_manos() { return "la cantidad de manos son ="+manos;}
+	
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,22 @@
+
+
+public class ClaseUno {                        // "uso humano" aqui voy a usar las
+	                                          //carracteristicas creadas en el metodo setter
+                                              //para crear al primer humano  "Rodrigo"	
+	public static void main(String[] args) {         
+		MetodoSetter humano=new MetodoSetter();
+		System.out.println(humano.dime_manos());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

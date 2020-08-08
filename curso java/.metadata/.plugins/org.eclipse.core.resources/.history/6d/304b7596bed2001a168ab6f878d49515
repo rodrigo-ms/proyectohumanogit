@@ -1,0 +1,31 @@
+
+
+  
+       
+public class MetodoSetter {                         //creare las caracteristicas basicas del humano
+	private int manos=2 ;                              
+	private int patas=2 ;
+	private String pais;
+    private String color;  // aqui parte el metodo setter le di datosque no son iguales en todos
+	private boolean sano,viejo;
+	   	
+	 public String dime_datos_generales() { return "el humano tiene "+manos+" manos y "+patas+" patas";}// aqui preparo el getter 
+	 public String dime_patas() { return "con "+patas+" patas";} // para obtener los datos
+
+
+
+                                  //aqui cree el metodo para darle una caracteristica unica
+	public void establece_color_piel(String color_piel) {color=color_piel;}     //setter
+	public void establece_pais(String pais_de_origen) {pais=pais_de_origen;}      
+	public void establece_salud(String sano) {if(sano=="si") {this.sano=true;}else {this.sano=false;}}
+	
+	
+	public String dime_color() { return "el color de piel es = "+ color;}
+	public String dime_pais() {return"el pais de origen es de este humano es = "+pais;}
+	public String dime_salud() {if(sano==true) {return "se encuentra en un estado sano";}else {
+		return "su estado de salud no es optimo";
+			
+	}
+	
+	}
+}

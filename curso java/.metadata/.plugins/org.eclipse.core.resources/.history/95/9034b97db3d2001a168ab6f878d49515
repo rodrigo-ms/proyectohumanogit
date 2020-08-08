@@ -1,0 +1,22 @@
+
+
+  
+       
+public class MetodoSetter {                         //creare las caracteristicas basicas del humano
+	private int manos=2 ;                              
+	private int patas=2 ;
+	  String color_piel;  // aqui parte el metodo setter le di datosque no son iguales en todos
+	  
+	   	
+public String dime_manos() { return "la cantidad de manos son = "+manos;}// aqui preparo el getter 
+	                                                                     // para obtener los datos
+
+
+	public void establece_color_pielo( String color_piel) {}
+	                                     //aqui cree el metodo para darle una caracteristica unica
+	
+	
+	public String dime_color() { return "el color de piel es = "+ color_piel;}
+	
+	
+}
